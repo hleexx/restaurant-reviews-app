@@ -39,7 +39,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #maincontent {
   background-color: #f3f3f3;
-  min-width: 100%;
+  width: 100%;
 }
 #footer {
   background-color: #444;
@@ -135,12 +135,13 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
+
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 30px;
-  text-align: left;
+  text-align: center;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -153,7 +154,6 @@ nav h1 a {
   width: 310px;
   display: inline-block;
   vertical-align: top;
-  max-width: 100%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -191,9 +191,15 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .inside header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -212,6 +218,7 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
+  left: 0;
   position: absolute;
   width: 100%;
 }
