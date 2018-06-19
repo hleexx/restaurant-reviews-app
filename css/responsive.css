@@ -1,0 +1,11 @@
+/* For Mobile - Nexus 5 (portrait, 360px and up) */
+
+@media screen and (orientation: portrait) and (min-width: 360px) {
+
+};
+
+/* For Tablet - iPad (portrait and portrait, 700px and up) */
+
+@media screen and (orientation: portrait) and (min-width: 700px, max-width: 1024px) {
+
+};
