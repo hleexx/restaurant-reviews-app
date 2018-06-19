@@ -2,6 +2,12 @@
 
 @media screen and (orientation: portrait) and (min-width: 360px) {
 
+	body {
+		max-width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 };
 
 /* For Tablet - iPad (portrait and portrait, 700px and up) */
