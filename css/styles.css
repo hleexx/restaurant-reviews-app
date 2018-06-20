@@ -191,11 +191,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .inside header {
   position: fixed;
   top: 0;
@@ -263,7 +258,7 @@ nav h1 a {
   width: 50%;
 }
 #reviews-container {
-  padding: 30px 30x 80px;
+  padding: 30px 30px 80px;
 }
 #reviews-container h2 {
   color: #f58500;
