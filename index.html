@@ -16,14 +16,12 @@
 
 <body>
   <header>
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
-    </nav>
+    <h1><a href="/">Restaurant Reviews</a></h1>
   </header>
 
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div role="application" aria-label="Map with restaurants" id="map"></div>
       <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiaGxlZXh4IiwiYSI6ImNqaW1pb2RwaTA0a2wza3BsNDNxdm9veGYifQ.DsuDFt2Cs7VOfVbmFsiW7g';
         var map = new mapboxgl.Map({

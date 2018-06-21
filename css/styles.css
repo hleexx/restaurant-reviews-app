@@ -5,7 +5,7 @@ body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12pt;
 	color: #333;
-	line-height: 1.5;
+	line-height: 1;
 }
 body {
 	background-color: #fdfdfd;
@@ -14,7 +14,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-ul, li {
+ol, ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12pt;
 	color: #333;
@@ -50,24 +50,26 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
-/* ====================== Navigation ====================== */
-nav {
+/* ====================== Header ====================== */
+header {
   width: 100%;
   height: 50px;
   background-color: #252831;
   text-align:center;
 }
-nav h1 {
+header h1 {
   margin: auto;
   padding-top: 5px;
 }
-nav h1 a {
+header h1 a {
   color: #fff;
   font-size: 12pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+
+/* ====================== Navigation ====================== */
 #breadcrumb {
     padding: 10px 40px 10px;
     list-style: none;
