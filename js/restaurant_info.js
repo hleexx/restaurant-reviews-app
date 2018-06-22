@@ -1,3 +1,14 @@
+/** Register service worker **/
+navigator.serviceWorker.register('/serviceWorker.js')
+  .then(function() {
+    console.log('service worker is working');
+  })
+  .catch(function(error) {
+    console.log('service worker failed');
+    console.log(error);
+  });
+
+
 let restaurant;
 var newMap;
 

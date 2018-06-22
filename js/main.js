@@ -1,5 +1,5 @@
 /** Register service worker **/
-navigator.serviceWorker.register('/js/serviceWorker.js')
+navigator.serviceWorker.register('/serviceWorker.js')
   .then(function() {
     console.log('service worker is working');
   })
