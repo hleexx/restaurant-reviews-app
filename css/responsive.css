@@ -97,7 +97,7 @@
 	  background: blue none repeat scroll 0 0;
 	  height: 50%;
 	  position: fixed;
-	  right: 20px;
+	  right: 10px;
 	  top: 310px;
 	  width: 50%;
 	}
@@ -194,7 +194,7 @@
 	/* ====================== Restaurant Details ====================== */
 
 	.inside #map-container {
-	  right: 55px;
+	  right: 35px;
 	  top: 258px;
 	  width: 45%;
 	}
