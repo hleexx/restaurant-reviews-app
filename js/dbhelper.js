@@ -157,7 +157,7 @@ class DBHelper {
    * Restaurant image alt text.
    */
   static altDescriptionForRestaurant(restaurant) {
-    return (`${restaurant.altDescription}`);
+    return (`Image of ${restaurant.name} restaurant`);
   }
 
   /**
