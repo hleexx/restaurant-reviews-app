@@ -5,6 +5,7 @@ self.addEventListener('install', function(event) {
 		caches.open('assets').then(function(cache) {
 			return cache.addAll(
 				[
+					'/',
 					'/css/responsive.css',
 					'/css/styles.css',
 					'/data/restaurants.json',
