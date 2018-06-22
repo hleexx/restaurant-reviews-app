@@ -76,7 +76,7 @@
 	  margin: auto;
 	}
 
-	#restaurants-list li h1 {
+	#restaurants-list li h2 {
 		font-size: 26pt;
 		text-align: center;
 	}
@@ -179,7 +179,7 @@
 
 	/* ====================== Restaurant Listing ====================== */
 
-	#restaurants-list li h1 {
+	#restaurants-list li h2 {
 		font-size: 14pt;
 	}
 
