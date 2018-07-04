@@ -8,7 +8,8 @@
 	}
 
 	body {
-		max-width: 700px;
+		width: 700px;
+		box-sizing: border-box;
 	}
 
 	ol, ul, li {
@@ -16,46 +17,48 @@
 	}
 
 	#footer {
-		font-size: 14pt;
+		font-size: 12pt;
 	}
 
 	/* ====================== Header ====================== */
 
-	header {
-		height: 90px;
+	header h1 {
+		line-height: 1;
 	}
 
 	header h1 a {
-		font-size: 22pt;
+		font-size: 16pt;
 	}
 
 	/* ====================== Navigation ====================== */
 
 	#breadcrumb {
-		font-size: 22px;
-		padding: 50px 0px 15px;
+		font-size: 16px;
+		padding: 0px 0px 15px;
+		position: absolute;
+		margin: 0px;
 	}
 	
 	/* ====================== Map ====================== */
 
-	#map {
+/*	#map {
 	  height: 500px;
-	}
+	}*/
 
 	/* ====================== Restaurant Filtering ====================== */
 
 	.filter-options {
-		height: 125px;
+		height: 30%;
 	}
 
 	.filter-options h2 {
-		font-size: 22pt;
+		font-size: 18pt;
 	}
 
 	.filter-options select {
-		font-size: 22pt;
-		width: 47%;
-		height: 45px;
+		font-size: 18pt;
+		width: 40%;
+		height: 25%;
 	}
 
 	/* ====================== Restaurant Listing ====================== */
@@ -65,9 +68,10 @@
 	}
 
 	#restaurants-list li {
-		min-width: 100%;
-		display: block;
+		width: 100%;
 		padding: 0px 0px 25px;
+		border: none;
+		margin: 0px;
 	}
 
 	#restaurants-list .restaurant-img {
@@ -77,37 +81,37 @@
 	}
 
 	#restaurants-list li h2 {
-		font-size: 26pt;
+		font-size: 20pt;
 		text-align: center;
 	}
 
 	#restaurants-list p {
-		font-size: 24px;
+		font-size: 20px;
 		text-align: center;
 	}
 
 	#restaurants-list li a {
-		font-size: 24px;
+		font-size: 18px;
 		padding: 25px;
 	}
 
 	/* ====================== Restaurant Details ====================== */
 
 	.inside #map-container {
-	  background: blue none repeat scroll 0 0;
-	  height: 50%;
-	  position: fixed;
-	  right: 10px;
-	  top: 310px;
-	  width: 50%;
+	  height: 10%;
+	  position: absolute;
+	  width: 100%;
+	  right: 0px;
+	  top: 150px;
 	}
 
 	#restaurant-name {
-	  font-size: 24pt;
+	  font-size: 20pt;
+	  text-align: center;
 	}
 
 	#restaurant-img {
-		width: 90%;
+		width: 100%;
 	}
 	#restaurant-address {
 	  font-size: 18pt;
@@ -116,13 +120,29 @@
 
 	#restaurant-hours {
 	  border-spacing: 25px 5px;
-	  font-size: 18px;
+	  font-size: 17px;
 	  line-height: 2;
+	  padding-bottom: 20px;
 	}
 
 	#restaurant-cuisine {
-	  font-size: 22pt;
+	  font-size: 18pt;
 	  padding: 4px 0;
+	  width: 100%;
+	}
+
+	#restaurant-container {
+	  width: 100%;
+	  padding: 440px 0px 0px 0px;
+	}
+
+	#reviews-container {
+		width: 95%;
+		padding: 30px 0px 50px 5%;
+	}
+
+	#reviews-list li {
+		width: 87%;
 	}
 
 	#reviews-list li p {
@@ -146,8 +166,8 @@
 
 	/* ====================== Header ====================== */
 	
-	header {
-		height: 70px;
+	header h1 {
+		line-height: 1.5;
 	}
 
 	header h1 a {
@@ -158,7 +178,6 @@
 
 	#breadcrumb {
 		font-size: 14px;
-		padding: 30px 0px 15px;
 	}
 
 	/* ====================== Restaurant Filtering ====================== */
@@ -194,9 +213,57 @@
 	/* ====================== Restaurant Details ====================== */
 
 	.inside #map-container {
-	  right: 35px;
-	  top: 258px;
-	  width: 45%;
+	  background: blue none repeat scroll 0 0;
+	  height: 25%;
+	  position: absolute;
+	  width: 100%;
+	  right: 0px;
+	  top: 130px;
+	}
+
+	#restaurant-name {
+	  font-size: 20pt;
+	  text-align: center;
+	}
+
+	#restaurant-img {
+		width: 100%;
+	}
+	#restaurant-address {
+	  font-size: 18pt;
+	  margin: 20px;
+	}
+
+	#restaurant-hours {
+	  border-spacing: 25px 5px;
+	  font-size: 17px;
+	  line-height: 2;
+	  padding-bottom: 20px;
+	}
+
+	#restaurant-cuisine {
+	  font-size: 18pt;
+	  padding: 4px 0;
+	  width: 100%;
+	}
+
+	#restaurant-container {
+	  width: 100%;
+	  padding: 850px 0px 0px 0px;
+	}
+
+	#reviews-container {
+		width: 95%;
+		padding: 30px 0px 50px 5%;
+	}
+
+	#reviews-list li {
+		width: 87%;
+	}
+
+	#reviews-list li p {
+	  margin: 0 0 10px;
+	  line-height: 1.5;
 	}
 
 }
